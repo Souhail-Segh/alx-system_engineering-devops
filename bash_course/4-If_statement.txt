@@ -1,0 +1,11 @@
+If statement:
+
+mynum=200
+
+if [ $mynum -eq 200 ] # take attention to spaces
+then
+	echo "The condition is true."
+fi
+
+
+#man test

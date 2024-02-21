@@ -1,0 +1,6 @@
+# To do math operation, use 'expr'
+
+expr 30 + 10   -->  40
+expr 30 - 10   -->  20
+expr 30 \* 10  -->  300
+expr 30 / 10   -->  3

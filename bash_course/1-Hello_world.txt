@@ -1,0 +1,8 @@
+Commands:
+1- echo 'Hello World!'
+
+ls - list storage
+cat - displaying what inside a file
+pwd - print working directory
+echo $SHELL -> what shell I am using (/bin/bash)
+which bash : (usr/bin/bash)

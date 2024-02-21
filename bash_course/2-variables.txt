@@ -1,0 +1,11 @@
+myname="Souhail"	(no spaces)
+echo $myname --> Souhail
+ech $newone  --> empty variable (not declared)
+
+#once you close the session the variables are gone!
+
+files=$(ls) # affect ls output to the variable 'files'
+
+date -> command that gives the current date and time
+
+env -> display all system variables

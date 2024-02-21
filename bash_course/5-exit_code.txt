@@ -1,0 +1,6 @@
+Exit code:
+
+$? #0: success	#1-255: failed
+
+exit 0 # equivalent to return 0
+exit 55
