@@ -12,4 +12,4 @@ private_key="~/.ssh/school"
 username="ubuntu"
 
 # SSH command using variables and flag -i
-ssh -i "$private_key" "$username"@"$server"
+ssh -i $private_key $username@$server
