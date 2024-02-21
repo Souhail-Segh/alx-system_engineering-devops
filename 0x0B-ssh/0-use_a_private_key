@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# The server IP address/hostname
+server="54.198.36.70"
+
+# The private key file path
+private_key="~/.ssh/school"
+
+# Set the username
+username="ubuntu"
+
+# SSH command using variables and flag -i
+ssh -i "$private_key" "$username"@"$server"
