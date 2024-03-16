@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# install nginx and serve and configure redirect.
+sudo apt -y update
+sudo apt -y install nginx
+ufw allow 'Nginx HTTP'
+echo 'Hello World!' > /var/www/html/index.nginx-debian.html
+# new="location /redirect_me {return 301 https://www.youtube.com;}"
+# old="# include snippets/snakeoil.conf;"
+# sed -i "s|$old|$new" /etc/nginx/sites-available/default
+sudo sed -i '/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.com/ permanent;' /etc/nginx/sites-available/default
+sudo service nginx restart
